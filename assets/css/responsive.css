@@ -1,0 +1,116 @@
+/* PC */
+@media (min-width:1024px) {
+
+}
+/* Tablet */
+@media (min-width:740px) and (max-width: 1023px) {
+    .header__your-info {
+        display: none;
+    }
+    /* Navbar */
+    .navbar-list>li {
+        display: none;
+    }
+    .navbar-list>span {
+        display: none;
+    }
+    .navbar-list .navbar-item-menu {
+        display: block;
+    }
+    .navbar-list .navbar-item-menu-icon {
+        color: #a4a4a4;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .header__navbar .navbar-list {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 117px;
+    }
+    .header .header__navbar {
+        height: 117px;
+    }
+    .navbar-item .navbar-item-link {
+        line-height: 0;
+    }
+
+    /* Slider */
+    .slider-background .turn-left {
+        left: 20px;
+    }
+    .slider-background .turn-right {
+        right: 20px;
+    }
+    .slider-search .search-filter {
+        width: 932px;
+        height: 262px;
+        flex-direction: column;
+    }
+    .search-filter .search-sub-list {
+        width: 890px;
+    }
+    .slider-search {
+        left: 125px;
+    }
+    .search-filter .search-btn {
+        width: 890px;
+    }
+
+    .slider-search .search-filter-double {
+        width: 932px;
+        height: 440px;
+        flex-direction: column;
+        transform-origin: center;
+    }
+    .search-filter-double .search-btn {
+        width: 890px;
+    }
+    .search-filter-double .search-sub-list {
+        width: 890px;
+    }
+    .search-filter-double .search-btn-double {
+        width: 890px;
+    }
+    /* Top promo */
+    .body {
+        margin-top: 340px;
+    }
+    .body .promotions {
+        flex-direction: column;
+        align-items: center;
+    }
+    .promotions .promotions-item-img {
+        height: 620px;
+        width: 930px;
+    }
+    .promotions .promotions-item {
+        width: 930px;
+        height: 885px;
+    }
+    .promotions .promotions-item-name {
+        width: 100%;
+    }
+    .promotions .character-name {
+        flex: 1;
+    }
+    .promotions .character-type {
+        flex: 1;
+    }
+    .promotions .promotions-item-description {
+        width: 100%;
+        height: 136px;
+    }
+    /* Destination */
+    .destination {
+        flex-direction: column;
+        align-items: center;
+    }
+    .destination .destination-item {
+        width: 930px;
+        height: 1355px;
+    }
+}
+/* Mobile */
+@media (max-width:739px) {
+
+}

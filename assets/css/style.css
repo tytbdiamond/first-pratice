@@ -23,8 +23,7 @@ html {
 .header__your-info {
     background-color: var(--primary-color);
     height: 50px;
-    border-bottom: 3px solid;
-    border-image: linear-gradient(to right, #f76570,#f3a46b,#ffd306,#1bbc9b,#14b9d5,#c377e4,#f76570,#f3a46b,#ffd205,#1cbd9c,#14b9d5,#c377e4) 1 ;
+    
 }
 
 .seperate2 {
@@ -100,6 +99,8 @@ html {
     display: flex;
     height: 50px;
     align-items: center;
+    background-color: #4a515b;
+    padding: 0px 16px;
 }
 
 .My-account img {
@@ -193,6 +194,8 @@ html {
 .header__navbar {
     background-color: #fff;
     height: 80px;
+    border-top: 3px solid;
+    border-image: linear-gradient(to right, #f76570,#f3a46b,#ffd306,#1bbc9b,#14b9d5,#c377e4,#f76570,#f3a46b,#ffd205,#1cbd9c,#14b9d5,#c377e4) 1 ;
 }
 .navbar-list {
     display: flex;
@@ -218,6 +221,9 @@ html {
 .navbar-item-link img {
     height: 21px;
     width: 136px;
+}
+.navbar-item-menu {
+    display: none;
 }
 
 .subnav-list {
