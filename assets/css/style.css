@@ -320,13 +320,13 @@ div.subnav-item-link:hover .sub-subnav-list {
     position: relative;
     height: 650px;
     transition: background ease 2s ;
-    background: url(./assets/img/slider.jpg) no-repeat top center / cover;
+    background: url(../img/slider.jpg) no-repeat top center / cover;
 }
 .bagrnext {
     display: none;
 }
 .bagrnext:checked ~ .slider-background  {
-    background: url(./assets/img/slider2.jpg) no-repeat right center / cover;
+    background: url(../img/slider2.jpg) no-repeat right center / cover;
 }
 
 
@@ -535,7 +535,7 @@ span.search-btn, label.search-btn {
 .next-img {
     width: 100px;
     height: 100px;
-    background : url(./assets/img/slider2.jpg) no-repeat center / cover;
+    background : url(../img/slider2.jpg) no-repeat center / cover;
     filter: blur(1px);
 }
 .img-left {
